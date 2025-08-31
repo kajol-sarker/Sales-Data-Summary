@@ -16,15 +16,11 @@ This project is a simple command-line application that analyzes sales data to pr
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
+    git clone <git remote add origin https://github.com/kajol-sarker/Sales-Data-Summary.git>
     ```
-2.  **Navigate to the project directory:**
+2.  **Run the script:**
     ```bash
-    cd <project-directory-name>
-    ```
-3.  **Run the script:**
-    ```bash
-    python sales_summary.py
+    main.py
     ```
 
 ### Example Output
@@ -34,16 +30,9 @@ This project is a simple command-line application that analyzes sales data to pr
 ------------------------------Welcome to Sales Data Summary--------------------------
 -------------------------------------------------------------------------------------
 
-
 Total Sales:  9000
-
-
 Product Wise Sales:  {'Shirt': 2700, 'Pant': 1800, 'Shoe': 4500}
 Most Sold Product:  Shoe
-
-
 Average Sales Per Record:  1500.0
-
-
 Day Wise Sales:  {'Monday': 2000, 'Tuesday': 3500, 'Wednesday': 3500}
 Best Sales Day:  Tuesday
